@@ -1,0 +1,8 @@
+﻿services:
+  azurewebapptest:
+    image: azurewebapptest
+    build:
+      context: .
+      dockerfile: AzureWebAppTest/Dockerfile
+    ports:
+      - "5049:5049"
